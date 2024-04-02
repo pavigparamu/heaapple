@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(12, 49, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left, #right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed #fff;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(170, 21, 21);
+    color: #fff;
+}
