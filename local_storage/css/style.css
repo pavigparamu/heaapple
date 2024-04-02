@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    
+}
+i{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+    border-radius: 5px;
+}
+.left{
+    float: left;
+    width: 64%;
+}
+.right{
+    float: right;
+    width: 25%;
+}
+#b-color{
+    background-color: rgb(255, 255, 255);
+}
+button{
+    height: 48px;
+    background-color: #F29406;
+    border-radius: 5px;
+    margin: 6px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    width: 800px;
+}
+.to-do-list{
+    display: block;
+    background-color: #212F3C;
+    border-radius: 5px;
+    padding: 50px 60px;
+    margin: 20px 0px;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    max-width: 25;
+}
+h1 {
+    color: white;
+    font-size: 36px;
+    width: 800px;
+}
+p::first-letter{
+    text-transform: capitalize;
+}
+p{
+    color: white;
+    width: 550px;
+    margin: 0%;
+    padding: 10px;
+}
+.firstSec{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6B7988;
+    border-radius: 5px;
+    
+}
+.secondSec p{
+    width: 660px;
+    text-align: right;
+    font-size: 18px;
+}
+
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0%;
+    margin-top: 50px;
+}
+#error{
+    color: red;
+    font-size: 18px;
+}
+
+#completed-list{
+    list-style-type: none;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6B7988;
+    border-radius: 5px;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+visibility: hidden;
+color: #ffffff;
+border-radius: 6px;
+padding: 5px 0;
+font-size: 12px;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 0;
+top: -10px;
+left: 8px;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+#right{
+    width: 100%;
+    text-align: right;
+}
+
+#list{
+    display: flex;
+    flex-direction: row;
+    background-color: #3a2a2a;
+}
